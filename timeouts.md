@@ -219,7 +219,7 @@ Numbers needed:
 5. Distinguish users with poor connection from leavers and disconnection-abusers (for now we assume it is impossible); reveal detailed traits of leavers (winrate, percent of timeouts, moving average latency over the last 20 games, etc.) in order to stop mixing them up.  
 6. Introduce extra-punishment for leavers, more severe as compared with surrenders (for surrender it is nothing at all) - in order to foster surrendering and further reduce the number of leavers.
 
-## 8. Timelines and release planing
+## 8. Timelines and release planning
 
 ### Action points
 
@@ -252,7 +252,7 @@ Numbers needed:
 
 ## 9. В двух словах
 
-1. **Мы не можем сразу отличить злоумышленников от игроков с плохим качеством соединения**. Каждому игроку иногда позволяется изобразить дисконнект.
+1. **Мы не можем сразу отличить злоумышленников от игроков с плохим качеством соединения**. Каждому игроку иногда позволительно изобразить дисконнект.
 2. При частом дисконнекте:
     1. Можно пойти по пути - кто часто заканчивают игру таймаутом по своей вине, получают за это уменьшение времени на пребывание в дисконнекте, пока этот банк не опустится до ~~10~~ 0 секунд.
     2. Можно пойти по второму пути - **жестко делить всех на 'обычных' игроков и 'злоумыленников'** - злоумышленник автоматически проигрывает обычному игроку при дисконнекте. При этом обычный + обычный ждут друг друга, а злоумышленник + злоумышленник играют до первого дисконнекта.
